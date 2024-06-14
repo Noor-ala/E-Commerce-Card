@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+body{
+    background-color: #001422;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+.circle{
+ height: 100px;
+ width: 100px;
+ border-radius: 100%;
+ position: absolute;
+}
+.circle-1{
+    height: 138px;
+    width: 138px;
+    background: radial-gradient(69.62% 69.62% at 50% 50%, #EA8BFA 0%, #7526F5 100%);
+    top: -280px;
+    left: -55px;
+
+}
+.circle-2{
+    height: 329px;
+    width: 329px;
+    background: radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #A661FF 32.29%, #6100FF 98.59%) ;
+    top: -300px;
+    left: 280px;
+    
+    
+}
+.circle-3{
+    height: 230px;
+    width: 230px;
+    background: radial-gradient(67.47% 67.47% at 50% 50%, #FED0FF 0%, #7F00FF 100%);
+    top: 110px;
+    left:-150px;
+}
+.card-container{
+    position:relative;
+}
+.card{
+    height: 450px;
+    width: 370px;
+    background: linear-gradient(151.53deg, rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
+    border-radius: 11px;
+    position: relative;
+    padding: 20px;
+}
+.card-content{
+    border: 0.74px solid #FFFFFF4D
+}
+.card-image{
+    width: 100%;
+    vertical-align: middle;
+}
+.tag-heart-container{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 18px;
+    margin-top: 22px;
+}
+.tag{
+    color: #ffd147;
+    font-family: Montserrat;
+    padding: 5px 4px;
+    background: #F1C6443D;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.card-text{
+    padding-inline: 18px;
+}
+.heart{
+    height: 16px;
+    width: 14px;
+    margin-top: 10px;
+}
+.card-title{
+    font-size: 18px;
+   
+}
+.card-subtitle{
+    font-size: 12px;
+    font-weight: 500px;
+}
+.star-rating{
+    display: flex;
+    align-items: center;
+}
+.star-rating i{
+    color: #F1C644;
+    width: 25px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.rating-value{
+    color: #F1C644;
+font-size: 16px;
+font-weight: 400;
+line-height: 11px;
+margin-inline: 5px;
+}
+.rating-count{
+    font-size: 14px;
+}
+.card-button{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 20px;
+    border-top: 1px solid rgb(131, 119, 119);
+}
